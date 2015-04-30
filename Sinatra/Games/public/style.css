@@ -1,0 +1,252 @@
+body {
+    margin: 35px auto;
+
+}
+ 
+header {
+    /*text-align: center;*/
+    margin: 0 0 20px;
+}
+ 
+header h1 {
+    display: inline;
+    font-size: 32px;
+}
+ 
+header h1 a:link, header h1 a:visited {
+    color: #29A3A3;
+    text-decoration: none;
+}
+ 
+header h2 {
+    font-size: 16px;
+    font-style: italic;
+    color: #999;
+}
+ 
+#main {
+    margin: 0 0 20 px;
+}
+ 
+
+ 
+p {
+    margin: 0 0 5px;
+}
+ 
+.meta {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #888;
+}
+ 
+.links {
+    font-size: 1.8em;
+    line-height: 0.8em;
+    float: right;
+    margin: -10px 0 0;
+}
+ 
+.links a {
+    display: block;
+    text-decoration: none;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+  /*background-image: url('http://breakoutaudiovisual.com/wp-content/uploads/2014/03/Basic-Black-Background.jpg');*/
+  background-color: #1F1F2E;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  /*    width: 1040px;    this is what makes the table body a certain width*/
+}
+
+table.rwd-table {
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+        width: 1040px;   /* this is what makes the table body a certain width*/
+        text-align: center;
+        margin-left:auto; 
+    margin-right:auto;
+}
+
+
+
+
+
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 800px;
+  padding:5px;
+  width: 140%;
+}
+
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 120px;
+  margin: auto;
+  max-width: 800px;
+  padding:5px;
+  width: 140%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:16px;
+  font-weight: 100;
+  padding:18px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:12px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:14px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+
+
+
+
+/* Initial menu */
+.menu {
+  background: #202024 url('http://www.abeautifulsite.net/wp-content/uploads/2014/08/congruent-pentagon-outline-550x233.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+
+
+
+
+
+

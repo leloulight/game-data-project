@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <title><%= @title + ' | Recall' %></title>
+  <link href="/reset.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">Recall</a></h1>
+      <h2>Because you are too busy to remember</h2>
+    </hgroup>
+  </header>
+ 
+  <div id="main">
+    <%= yield %>
+  </div>
+ 
+  <footer>
+    <p><small>Wow, all apps in this directory share this layout.erb!</a>.</small></p>
+  </footer>
+</body>
+</html>

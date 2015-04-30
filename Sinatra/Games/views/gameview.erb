@@ -1,0 +1,27 @@
+<div class="table-title">
+<h2>Games of 2014!</h2>
+</div>>
+
+<table class="rwd-table">
+  <tr>
+    <th>Game Name</th>	
+    <th>Developer</th>	
+    <th>Publisher</th>	
+  </tr>
+  <% @gameinfo.each_with_index do |name, index| %>                    
+  <tr>
+     <td><%= name %></td>
+     <td><%= @devinfo[index] %></td>
+	 <td><%= @pubinfo[index] %></td>
+  </tr>
+  <% end %>
+</table>
+
+<!-- <section id="update" -->
+<form action="/" method="post">
+  <input type="text" name="message" placeholder="Update Fact">
+  <input type="submit">
+</form>
+<!-- </section> -->
+
+
