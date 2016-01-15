@@ -1,0 +1,15 @@
+<h2>All Sites</h2>
+
+<table>
+	<tr>
+		<td>Site Name</td>
+	</tr>
+<% @sites.each do |site| %>
+
+	<tr>
+		<td>
+	<%= site.site_name %>
+	</td>
+	</tr>
+<% end %>
+</table>

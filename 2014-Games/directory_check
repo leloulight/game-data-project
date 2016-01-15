@@ -1,0 +1,3 @@
+Dir.foreach('/home/colson/Documents/scripts/2014-Games') do |file|
+	puts file
+end
